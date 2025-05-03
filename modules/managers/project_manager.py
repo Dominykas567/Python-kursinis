@@ -35,9 +35,6 @@ class ProjectManager:
             writer.writerow(["Project Name", "Status"])
             writer.writerow([project_name, status])
 
-
-        print(f"Project '{project_name}' created in '{folder}' with required CSV files.")
-
         os.chdir(original_directory)
         Logger.log(f"Created project {project_name}")
 
@@ -56,11 +53,7 @@ class ProjectManager:
         Logger.log(f"Removed project {project_name}")
 
         if os.path.exists(delete_path) and os.path.isdir(delete_path):
-            try:
-                shutil.rmtree(delete_path)
-                print(f"Directory '{delete_path}' and its contents have been deleted.")
-            except Exception as e:
-                print(f"Error occurred while deleting the directory: {e}")
+            shutil.rmtree(delete_path)
 
     def change_status(self,project_name, status, option_value):
 
@@ -73,11 +66,7 @@ class ProjectManager:
             folder = "outdated_projects" if not status else "active_projects"
             destination_path = os.path.join("data", folder,project_name)
 
-            try:
-                shutil.move(project_dir, destination_path)
-                print(f"Folder moved successfully from {project_dir} to {destination_path}")
-            except Exception as e:
-                print(f"Error occurred: {e}")
+            shutil.move(project_dir, destination_path)
 
             file_path=os.path.join(destination_path, "project.csv")
             with open(file_path, mode='w', newline='') as f:

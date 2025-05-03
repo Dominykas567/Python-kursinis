@@ -80,7 +80,6 @@ class StorageManager:
 
             else:
                 os.chdir('../../')
-                print(project_dir, os.getcwd())
                 with open(project_dir, mode='w', newline='') as f:
                     writer = csv.writer(f)
                     writer.writerow(["Component Name", "Type", "Value", "Unit", "Amount"])
@@ -164,25 +163,3 @@ class StorageManager:
 
         os.chdir(original_directory)
         Logger.log(f"Removed component(s) {component.get_component_values() if location == "storage" else component.get_component_values_without_amount()} from {location}")
-
-
-
-from unittest.mock import patch, MagicMock
-
-def test_add_component_logs_correctly_storage():
-    component = MagicMock()
-    component.get_component_values.return_value = ["Resistor", "Passive", "10k", "Ohm", "5"]
-    component.get_component_name.return_value = "Resistor"
-    component.get_component_amount.return_value = "5"
-
-    manager = StorageManager()
-
-    with patch("base.modules.classes.logger.Logger.log") as mock_log, \
-         patch("os.path.exists", return_value=False), \
-         patch("builtins.open"), \
-         patch("os.getcwd", return_value="/fake/dir"), \
-         patch("os.chdir"):
-        manager.add_component(component, "storage")
-        mock_log.assert_called_once_with(
-            "Added new component(s) ['Resistor', 'Passive', '10k', 'Ohm', '5'] to storage"
-        )

@@ -10,55 +10,6 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\data\active_projects\3D Game Engine\project.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\data\active_projects\3D Game Engine\required_components.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\data\active_projects\3D_Renderer\project.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\data\active_projects\Audio_Amplifier\project.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\data\active_projects\Autonomous_Drone\project.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\data\active_projects\Battery_Management_System\project.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\data\active_projects\RFID_Scanner\project.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
         <entry key="\data\components_in_Storage.csv">
           <value>
             <Attribute>
@@ -95,13 +46,6 @@
           </value>
         </entry>
         <entry key="\data\outdated_projects\kopbteb\required_components.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\data\outdated_projects\project.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

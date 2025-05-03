@@ -18,9 +18,6 @@ def with_cooldown(button, func, cooldown_ms=1000):
         button.after(cooldown_ms, lambda: button.configure(state="normal"))
     return wrapper
 
-
-
-
 def button_manager(app, btn_name):
     for button in app.sidebar_frame.winfo_children():
         text = button.cget("text")
@@ -28,29 +25,6 @@ def button_manager(app, btn_name):
 
     for widget in app.main_frame.winfo_children():
         widget.destroy()
-
-
-
-'''def open_projects(app):
-    button_manager(app, "Projects")
-    tool_frame = DataFrame(app, "Projects")
-
-def open_orders(app):
-    button_manager(app, "Orders")
-    tool_frame = DataFrame(app, "Orders")
-
-def open_employees(app):
-    button_manager(app, "Employees")
-    tool_frame = DataFrame(app, "Employees")
-
-def open_storage(app):
-    button_manager(app, "Storage")
-    tool_frame = DataFrame(app, "Storage")
-
-def open_activity(app):
-    button_manager(app, "Activity Log")
-    tool_frame = DataFrame(app, "Activity Log")
-'''
 
 def open_frame(app, frame_class, display_name):
     button_manager(app, display_name)

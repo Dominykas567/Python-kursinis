@@ -1,0 +1,5 @@
+Component Name,Type,Value,Unit,Amount
+Switch,Toggle,250,V,10,46,62
+Relay,Electromechanical,730,Watts,10,53
+Fuse,Slo-Blo,2,A,44,87
+LED,Red,2.1,V,25,30

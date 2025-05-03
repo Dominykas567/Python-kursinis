@@ -1,0 +1,33 @@
+Component Name,Type,Value,Unit,Amount
+Relay,Electromechanical,734.23,Watts,68
+Capacitor,Ceramic,0.1,µF,250
+Resistor,Carbon Film,10,KΩ,500
+Transistor,NPN,0.6,V,180
+Inductor,Toroidal,22,µH,75
+Relay,Solid State,540.5,Watts,40
+Diode,Schottky,0.3,V,320
+Fuse,Fast Blow,5,A,100
+Switch,Toggle,250,V,60
+LED,Red,2.1,V,400
+Microcontroller,ARM Cortex-M4,72,MHz,35
+Connector,USB Type-C,5,V,150
+Sensor,Temperature,100,°C,80
+Crystal Oscillator,Quartz,16,MHz,90
+Potentiometer,Rotary,10,KΩ,70
+Regulator,Linear,3.3,V,124
+Capacitor,Electrolytic,470,µF,120
+Resistor,Wire Wound,1,Ω,220
+Diode,Zener,5.6,V,200
+Relay,Electromechanical,730,Watts,55
+Motor,DC Brushless,12,V,40
+Battery,Lithium-Ion,3.7,V,50
+Transistor,PNP,0.7,V,190
+Switch,Push Button,125,V,95
+Inductor,Drum Core,10,µH,100
+LED,Green,2.0,V,380
+Sensor,Humidity,60,%RH,70
+Fuse,Slo-Blo,2,A,90
+Microcontroller,AVR,16,MHz,60
+Connector,HDMI,5,V,45
+Crystal Oscillator,Ceramic,8,MHz,85
+Regulator,Switching,12,V,69

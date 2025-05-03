@@ -1,0 +1,5 @@
+Component Name,Type,Value,Unit,Amount
+Motor,DC Brushless,12,V,76
+Connector,USB Type-C,5,V,57
+LED,Red,2.1,V,25
+Transistor,PNP,0.7,V,76,83,86

@@ -1,0 +1,6 @@
+Component Name,Type,Value,Unit,Amount
+Relay,Electromechanical,730,Watts,10,53,78
+Microcontroller,AVR,16,MHz,42,77
+Switch,Toggle,250,V,10,46,62,60
+Resistor,Wire Wound,1,Ω,62
+Motor,DC Brushless,12,V,76,49

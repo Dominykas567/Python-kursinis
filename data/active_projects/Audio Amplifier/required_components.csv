@@ -1,0 +1,7 @@
+Component Name,Type,Value,Unit,Amount
+Capacitor,Ceramic,0.1,µF,50
+Potentiometer,Rotary,10,KΩ,73,70
+Relay,Electromechanical,730,Watts,10
+Microcontroller,ARM Cortex-M4,72,MHz,69,19
+LED,Green,2.0,V,44,18
+Diode,Schottky,0.3,V,23

@@ -1,0 +1,8 @@
+Invoice Number, Project Name, Amount, Must Be Done By, Priority Level, Progress To Completion
+INV-001,3D Renderer,5200.00,2025-06-10,high,0.25
+INV-003,Autonomous Drone,8700.00,2025-07-01,high,0.10
+INV-004,Weather Station,2400.75,2025-06-01,low,0.80
+INV-005,Smart Lock,1800.00,2025-05-15,medium,0.45
+INV-006,Battery Management System,4600.30,2025-06-25,high,0.30
+INV-007,RFID Scanner,2950.00,2025-05-30,low,0.95
+delete,lol,1,2222-12-12,high,0

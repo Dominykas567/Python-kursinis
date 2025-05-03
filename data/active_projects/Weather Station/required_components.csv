@@ -1,0 +1,5 @@
+Component Name,Type,Value,Unit,Amount
+Sensor,Humidity,60,%RH,59
+Fuse,Fast Blow,5,A,62,40
+Potentiometer,Rotary,10,KΩ,73
+Regulator,Linear,3.3,V,41

@@ -1,0 +1,7 @@
+Component Name,Type,Value,Unit,Amount
+Fuse,Fast Blow,5,A,62
+Transistor,PNP,0.7,V,76,83
+Capacitor,Electrolytic,470,µF,16,46
+Fuse,Slo-Blo,2,A,44
+Microcontroller,AVR,16,MHz,42
+Relay,Electromechanical,734.23,Watts,67,96

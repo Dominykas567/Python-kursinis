@@ -1,0 +1,5 @@
+Component Name,Type,Value,Unit,Amount
+Switch,Push Button,125,V,20
+Switch,Toggle,250,V,10
+Sensor,Temperature,100,°C,10
+Microcontroller,ARM Cortex-M4,72,MHz,69

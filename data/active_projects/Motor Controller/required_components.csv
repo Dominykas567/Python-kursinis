@@ -1,0 +1,7 @@
+Component Name,Type,Value,Unit,Amount
+Transistor,PNP,0.7,V,76,83,86,66
+Microcontroller,ARM Cortex-M4,72,MHz,69,19,90
+Diode,Zener,5.6,V,100,58
+Inductor,Toroidal,22,µH,71
+Diode,Schottky,0.3,V,23,29
+Sensor,Temperature,100,°C,10,71,70

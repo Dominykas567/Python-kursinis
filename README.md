@@ -2,7 +2,7 @@
 
 ## The Program
 
-My application is designed to store and manage various data related to PCB (printed circuit board) manufacturing. To run the program, simply type the following command in your command prompt: `python main.py`. Once the program is open, you will see a sidebar with several options to choose from, depending on your intended actions.
+My application is designed to store and manage various data related to PCB (printed circuit board) manufacturing. To run the program, simply type the following command in your command prompt: `python main.py`. Once the program is open, you will see a sidebar with several options to choose from, depending on your intended actions. Please note that this program requires the **CustomTkinter** framework to run.
 
 ## How does the program cover functional requirements
 
